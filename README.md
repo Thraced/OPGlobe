@@ -14,10 +14,11 @@ An interactive 3D globe of the One Piece world built using **Three.js**, featuri
 
 ## 🎨 Texture Attribution (Required)
 
-The world map texture used in this project comes from this Reddit post:
+The world map texture used in this project comes from the author xads181
+https://www.deviantart.com/xads181
 
 **“Updated One Piece World Map (with Luffy’s full path)”**  
-https://www.reddit.com/r/OnePiece/comments/1lr2aby/updated_one_piece_world_map_with_luffys_full_path/?tl=de
+https://www.reddit.com/r/OnePiece/comments/1lr2aby/updated_one_piece_world_map_with_luffys_full_path
 
 ### ✔️ License  
 The map texture is licensed under:
