@@ -15,6 +15,7 @@ An interactive 3D globe of the One Piece world built using **Three.js**, featuri
 ## 🎨 Texture Attribution
 
 The world map texture used in this project comes from the author xads181 (using the free reddit version)
+
 https://www.deviantart.com/xads181
 
 **“Updated One Piece World Map (with Luffy’s full path)”**  
