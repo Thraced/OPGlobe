@@ -1,34 +1,87 @@
-🏴‍☠️ One Piece Interactive 3D World Globe
+# 🏴‍☠️ One Piece Interactive 3D World Globe
 
-An interactive 3D globe of the One Piece world built using Three.js, featuring:
+An interactive 3D globe of the One Piece world built using **Three.js**, featuring:
 
-🌍 High-resolution One Piece world map
+- 🌍 High-resolution One Piece world map  
+- 🌀 Mouse-draggable rotation (OrbitControls)  
+- ✨ Soft atmospheric glow  
+- 🌌 Procedural starfield background  
+- 🧭 Grand Line & Red Line rings  
+- 🏝️ Island markers  
+- 🎛️ Auto-spin toggle (press **A**)  
 
-🌀 Mouse-draggable 3D rotation (OrbitControls)
+---
 
-✨ Atmospheric glow around the globe
+## 🎨 Texture Attribution (Required)
 
-🌌 Procedural starfield background
+The world map texture used in this project comes from this Reddit post:
 
-🧭 Grand Line + Red Line rings
+**“Updated One Piece World Map (with Luffy’s full path)”**  
+https://www.reddit.com/r/OnePiece/comments/1lr2aby/updated_one_piece_world_map_with_luffys_full_path/?tl=de
 
-🏝️ Optional island markers
+### ✔️ License  
+The map texture is licensed under:
 
-🎛️ Optional auto-spin toggle (press A)
+**Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)**  
+https://creativecommons.org/licenses/by-sa/3.0/
 
-This project is lightweight, works directly on GitHub Pages, and runs without any backend or build tools.
+### ✔️ Requirements of the License
+If you share, modify, or redistribute this project (including the texture):
 
-🔧 Technologies Used
+- **You must give credit** to the original map creator.  
+- **You must link to the CC BY-SA 3.0 license.**  
+- **Any derivative must be shared under the same license.**
 
-Three.js r146 (for compatibility with non-module OrbitControls)
+This README includes the required attribution.
 
-HTML / CSS / JavaScript
+---
 
-Hosted on GitHub Pages
+## 🔧 Technologies Used
 
-🎨 Texture Attribution
+- **Three.js r146** (for compatibility with non-module OrbitControls)  
+- **HTML / CSS / JavaScript**  
+- Hosted on **GitHub Pages**
 
-The world map texture used in this project comes from the author xads181
+---
 
-“Updated One Piece World Map (with Luffy’s full path)”
-https: //www.reddit.com/r/OnePiece/comments/1lr2aby/updated_one_piece_world_map_with_luffys_full_path
+## 🚀 Live Demo
+
+*(Add your GitHub Pages link here once deployed.)*
+
+---
+
+## 📂 Running Locally
+
+Browsers block texture loading when opened via `file://`, so you must run a local server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
+
+```
+http://localhost:8000
+```
+
+---
+
+## 📜 License
+
+The **project code** is MIT-licensed (or any license you choose).
+
+The **map texture**, however, is licensed under:
+
+**CC BY-SA 3.0 — Attribution-ShareAlike**  
+https://creativecommons.org/licenses/by-sa/3.0/
+
+You must retain attribution when redistributing or modifying this project.
+
+---
+
+## 🤝 Credits
+
+- Texture by the creator from the linked Reddit post  
+- One Piece by Eiichiro Oda  
+- 3D implementation by _your name_
+
