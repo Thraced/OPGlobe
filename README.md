@@ -68,9 +68,7 @@ http://localhost:8000
 
 ## 📜 License
 
-The **project code** is MIT-licensed (or any license you choose).
-
-The **map texture**, however, is licensed under:
+The **map texture**, is licensed under:
 
 **CC BY-SA 3.0 — Attribution-ShareAlike**  
 https://creativecommons.org/licenses/by-sa/3.0/
@@ -81,7 +79,7 @@ You must retain attribution when redistributing or modifying this project.
 
 ## 🤝 Credits
 
-- Texture by the creator from the linked Reddit post  
+- Texture by the creator https://www.deviantart.com/xads181
 - One Piece by Eiichiro Oda  
-- 3D implementation by _your name_
+- 3D implementation by Thraced
 
