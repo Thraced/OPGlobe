@@ -191,33 +191,6 @@
             scene.add(stars);
         })();
 
-        // === LITTLE "ISLAND MARKERS" ===
-        function createIslandMarker(latDeg, lonDeg, color, label) {
-            const markerGeometry = new THREE.SphereGeometry(0.05, 16, 16);
-            const markerMaterial = new THREE.MeshBasicMaterial({ color });
-            const marker = new THREE.Mesh(markerGeometry, markerMaterial);
-
-            // FIX: use MathUtils instead of Math in r146
-            const lat = THREE.MathUtils.degToRad(latDeg);
-            const lon = THREE.MathUtils.degToRad(lonDeg);
-
-            const r = radius * 1.002;
-
-            const x = r * Math.cos(lat) * Math.cos(lon);
-            const y = r * Math.sin(lat);
-            const z = r * Math.cos(lat) * Math.sin(lon);
-
-            marker.position.set(x, y, z);
-            marker.userData.label = label || "";
-
-            globe.add(marker);
-            return marker;
-        }
-
-        createIslandMarker(10, -30, 0xffdd33, "East Blue");
-        createIslandMarker(-5, 60, 0x66ff99, "Grand Line");
-        createIslandMarker(15, 150, 0xff6666, "New World");
-
         // === ORBIT CONTROLS ===
         const controls = new THREE.OrbitControls(camera, renderer.domElement);
         controls.enableDamping = true;
