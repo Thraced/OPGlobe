@@ -2,12 +2,11 @@
 
 An interactive 3D globe of the One Piece world built using **Three.js**, featuring:
 
-- 🌍 High-resolution One Piece world map  
+- 🌍 One Piece world map  
 - 🌀 Mouse-draggable rotation (OrbitControls)  
 - ✨ Soft atmospheric glow  
 - 🌌 Procedural starfield background  
 - 🧭 Grand Line & Red Line rings  
-- 🏝️ Island markers  
 - 🎛️ Auto-spin toggle (press **A**)  
 
 ---
