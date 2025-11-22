@@ -46,8 +46,7 @@ This README includes the required attribution.
 ---
 
 ## 🚀 Live Demo
-
-*(Add your GitHub Pages link here once deployed.)*
+[Live Demo](https://thraced.github.io/OPGlobe/)
 
 ---
 
